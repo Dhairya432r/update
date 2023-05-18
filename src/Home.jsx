@@ -6,9 +6,10 @@ import Video from "./Video";
 import Features from "./Features";
 import Contactus from "./Contactus";
 import Footer from "./Footer";
-import Navbar from "./Navbar";
+
 import Dhairya from "./Dhairya"
 import Patel from "./Patel"
+import Navbar from "./navbar";
 
 const Home = () => {
 
@@ -17,10 +18,10 @@ const Home = () => {
 
   return (
     <>
-      <Navbar />
+    <Navbar />
 
-
-      <div className=" mt-0 lg:mt-20 bottom-0 bg-blue-500 sm:flex pl-11 pr-11 text-white ">
+ 
+      <div className="mt-12 lg:mt-20 bottom-0 bg-blue-500 sm:flex pl-11 pr-11 text-white ">
         <div className=" pt-10 font-bold">
           <h4 className="text-lg">WE HELP YOUR BUSINESS BECOME A BRAND</h4>
           <br />

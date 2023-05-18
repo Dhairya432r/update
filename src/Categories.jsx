@@ -3,7 +3,7 @@ import {
   Carousel,
   initTE,
 } from "tw-elements";
-import Navbar  from "./Navbar";
+import Navbar  from "./navbar";
 const Categories = () => {
   initTE({ Carousel });
   return (

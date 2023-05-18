@@ -2,7 +2,7 @@ import React from "react";
 import Dailypic from "./Dailypic";
 import ContactDaily from "./ContactDaily";
 import Footer2 from "./Footer2";
-import Navbar  from "./Navbar";
+import Navbar  from "./navbar";
 
 const Daily = () => {
   return (

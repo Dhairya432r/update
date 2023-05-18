@@ -39,14 +39,14 @@ const Navbar = () => {
                            
                  
                     <div className="flex mr-6 ">
-                      <a>
-                        <Link to="/home"><img
+                    
+                        <Link to="/"><img
                           src="./assets/images/brandzi app icon-01.png"
                           className="h-24 w-28 pb-4"
 
                           alt=""
                         /></Link>
-                      </a>
+                    
                     </div>
                   
                             <div className="flex  flex-1 items-center lg:justify-center sm:items-stretch sm:justify-center">

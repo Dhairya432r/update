@@ -3,7 +3,7 @@ import Dailypic from "./Dailypic";
 import Contactus from "./Contactus";
 import Contactdaily from "./ContactDaily";
 import Footer2 from "./Footer2";
-import Navbar  from "./Navbar";
+import Navbar  from "./navbar";
 
 const Festivals2 = () =>{
     return (
