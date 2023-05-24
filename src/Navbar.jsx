@@ -24,7 +24,7 @@ const Navbar = () => {
             {({ open }) => (
                 <>
                     <div className=" mx-auto  max-w-7xl  fixed top-0 w-full bg-blue-600 text-5xl px-2 sm:px-6  lg:px-8">
-                        <div className="relative flex  h-20 font-extrabold items-center justify-between">
+                        <div className=" flex  h-20 font-extrabold items-center justify-between">
                             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                                 {/* Mobile menu button*/}
                                 <Disclosure.Button className="inline-flex text-6xl items-center justify-center  w-14  ml-10 mr-16 rounded-md p-2 text-white font-bold hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
