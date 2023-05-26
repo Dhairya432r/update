@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar  from "./navbar";
+
 const Festivals = () => {
   return (
     <>
-  
-      
+
+
       <div>
         <div
             id="carouselExampleControlsfestivals"

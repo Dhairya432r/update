@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import Navbar  from "./navbar";
+import Navbar from './Navbar';
 
 const Signup = () => {
    
       return (
         <>
         
-        <Navbar />
+      <Navbar/>
         <div className='grid justify-center align-middle pt-44 drop-shadow-2xl'>
           <h2>Login Form</h2>
           <form>

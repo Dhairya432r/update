@@ -11,8 +11,8 @@ const How = () =>{
            
             <div className='  bg-gray-200 pt-10 relative'>
             
-            <div className='mt-10 mb-10'>
-                <h1 className='grid justify-center text-5xl mb-10 font-bold'>How Does Brands.Live Works</h1>
+            <div className='lg:mt-10 lg:mb-10'>
+                <h1 className='grid justify-center text-5xl lg:ml-8 ml-20 lg:mb-10 font-bold'>How Does Brands.Live Works</h1>
             <div className="border-spacing-x-8 lg:flex md:flex  sm:inline-block justify-evenly align-middle">
           <div className=" box-content drop-shadow-xl h-64 w-64 p-4 l">
             <div className=" mb-2 pl-2 text-blue-400 mb-16">

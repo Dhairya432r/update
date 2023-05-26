@@ -23,7 +23,7 @@ const Navbar = () => {
         <Disclosure as="nav" className="bg-blue-400">
             {({ open }) => (
                 <>
-                    <div className=" mx-auto max-w-7xl sm:fixed top-0 w-full bg-sky-500 text-5xl px-2 sm:px-6  lg:px-8">
+                    <div className=" mx-auto  sm:fixed top-0 w-full bg-sky-500 text-5xl px-2 sm:px-6  lg:px-8">
                         <div className="relative flex  h-20 font-extrabold items-center justify-between">
                             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                                 {/* Mobile menu button*/}
@@ -40,7 +40,7 @@ const Navbar = () => {
                  
                     <div className="flex mr-6 ">
                       <a>
-                        <Link to="/home"><img
+                        <Link to="/Home"><img
                           src="./assets/images/brandzi app icon-01.png"
                           className="h-24 w-28 pb-4"
 
