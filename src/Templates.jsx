@@ -5,7 +5,7 @@ const Templates = () => {
     <>
     
       <div className="  drop-shadow-2xl  border-4 bg-blue-100 ">
-        <h1 className="text-base text-blue-400 lg:pr-44 lg:pt-20 md:pl-32 md:pt-24 sm:pr-32 pt-20">
+        <h1 className="text-base text-blue-400 lg:pl-44 lg:pt-20 md:pl-32 md:pt-24 sm:pr-32 pt-20">
           CUSTOMIZE ANY TEMPLATE, OR DESIGN SOMETHING MORE PERSONAL, LIKE AN
           INVITATION.
         </h1>

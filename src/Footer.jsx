@@ -1,13 +1,15 @@
 import React from "react";
-import Topnav from "./Responavbar";
+
 
 const Footer = () => {
   return (
     <>
-   
-      <div className="bg-blue-500 text-white h-52 pl-11 pr-11  ">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+      />
+
+      <div className="bg-blue-500 text-white lg:h-28 h-56 pl-11 pr-11  ">
         <div className="">
-          <div className="pb-0">
+          <div className="">
             <h2 className="flex justify-center align-middle text-3xl">
               Brandzi.live
             </h2>
@@ -30,11 +32,11 @@ const Footer = () => {
           <hr />
         </div>
         <div className="">
-          <div className="flex justify-evenly pt-5  align">
-            <p className="text-2xl align-middle">Copyright © Brands.live All Right Reserved.</p> 
+          <div className="flex justify-evenly">
+            <p className="text-2xl align-middle">Copyright © Brands.live All Right Reserved.</p>
             <p className="text-2xl align-middle">Privacy Policy | Terms & Conditions</p>
           </div>
-          
+
         </div>
       </div>
     </>
