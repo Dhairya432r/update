@@ -7,10 +7,10 @@ const Businesscategories=()=>{
     return (
         <>
         <Navbar/>
-         <div className="bg-blue-500  text-white pl-32 mt-20">
-            <h1 className="text-5xl font-bold ">Business Categories</h1>
+        <div className="bg-blue-500  text-white pt-6  lg:pl-32 lg:mt-20">
+            <h1 className="text-5xl font-bold lg:ml-0 ml-10">Business Categories</h1>
             <br />
-            <p className="text-2xl pb-16">Home / Business Categories</p>
+            <p className="text-2xl pb-16 lg:ml-0 ml-10">Home / Business Categories</p>
             </div>
             
             <Dailypic />

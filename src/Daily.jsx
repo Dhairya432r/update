@@ -8,11 +8,11 @@ const Daily = () => {
   return (
     <>
      <Navbar/>
-      <div class="bg-blue-500 text-white pl-32 sm:mt-0 lg:mt-16">
-        <h1 class="text-5xl font-bold pt-16">Daily Categories</h1>
-        <br />
-        <p class="text-2xl pb-16">Home / DailyCategories</p>
-       </div>
+     <div className="bg-blue-500  text-white pt-6 lg:pl-32 lg:mt-20">
+            <h1 className="text-5xl font-bold lg:ml-0 ml-10">Daily Categories</h1>
+            <br />
+            <p className="text-2xl pb-16 lg:ml-0 ml-10">Home / Daily Categories</p>
+            </div>
        <Dailypic />
        <ContactDaily />
        <Footer2 />

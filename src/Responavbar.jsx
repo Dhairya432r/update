@@ -2,11 +2,11 @@ import React from 'react';
 
 import { Fragment } from 'react'
 import { Disclosure } from '@headlessui/react'
-import { Bars3Icon, UserIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon,XMarkIcon } from '@heroicons/react/24/outline'
 
 
 const navigation = [
-    { name: 'Daily', href: '/Daily', current: false  },
+    { name: 'HELLO', href: '/Daily', current: false  },
     { name: 'Days', href: '/Days  ', current: false },
     { name: 'Festivals', href: '/Festivals2', current: false },
     { name: 'Bussiness categories', href: '/Businesscategories', current: false },

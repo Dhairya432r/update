@@ -9,38 +9,71 @@ const Templates = () => {
           CUSTOMIZE ANY TEMPLATE, OR DESIGN SOMETHING MORE PERSONAL, LIKE AN
           INVITATION.
         </h1>
-        <h1 className="text-5xl font-bold lg:pl-36 lg:pb-12 md:pl-32 md:pb-12 sm:pl-36 sm:pb-12 ">
+        <h1 className="text-5xl font-bold lg:pl-36 lg:pb-12 md:pl-32 md:pb-12 lg:ml-0 mt- sm:pl-36 sm:pb-12 ">
           Templates for absolutely anything
         </h1>
         <br />
-        <div className="overflow-hidden flex justify-evenly">
+        <div className="overflow-hidden  flex justify-evenly">
           <img
-            className="h-40 w-40 "
+            className="lg:h-40 h-60 w-60 lg:w-40 "
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden  w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
+            src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
+            alt=""
+          />
+        </div>
+        <br />
+        <div className=" overflow-hidden  flex justify-evenly">
+          <img
+            className="lg:h-40 h-60 w-60 lg:w-40"
+            src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
+            alt=""
+          />
+          <img
+            className="h-40 lg:block hidden w-40"
+            src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
+            alt=""
+          />
+          <img
+            className="h-40 lg:block hidden w-40"
+            src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
+            alt=""
+          />
+          <img
+            className="h-40 lg:block hidden w-40"
+            src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
+            alt=""
+          />
+          <img
+            className="h-40 lg:block hidden w-40"
+            src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
+            alt=""
+          />
+          <img
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
@@ -48,65 +81,32 @@ const Templates = () => {
         <br />
         <div className=" overflow-hidden flex justify-evenly">
           <img
-            className="h-40 w-40"
+            className="lg:h-40 h-60 w-60 lg:w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
-            src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
-            alt=""
-          />
-        </div>
-        <br />
-        <div className=" overflow-hidden flex justify-evenly">
-          <img
-            className="h-40 w-40"
-            src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
-            alt=""
-          />
-          <img
-            className="h-40 w-40"
-            src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
-            alt=""
-          />
-          <img
-            className="h-40 w-40"
-            src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
-            alt=""
-          />
-          <img
-            className="h-40 w-40"
-            src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
-            alt=""
-          />
-          <img
-            className="h-40 w-40"
-            src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
-            alt=""
-          />
-          <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
@@ -114,32 +114,32 @@ const Templates = () => {
         <br />
         <div className=" overflow-hidden flex justify-evenly">
           <img
-            className="h-40 w-40"
+            className="lg:h-40 h-60 w-60 lg:w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
@@ -147,32 +147,32 @@ const Templates = () => {
         <br />
         <div className=" overflow-hidden flex justify-evenly pb-20">
           <img
-            className="h-40 w-40"
+            className="lg:h-40 h-60 w-60 lg:w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />
           <img
-            className="h-40 w-40"
+            className="h-40 lg:block hidden  w-40"
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />

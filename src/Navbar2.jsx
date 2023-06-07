@@ -17,7 +17,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-const Navbar = () => {
+const Navbar2 = () => {
 
     return (
         <Disclosure as="nav" className="bg-blue-400">
@@ -40,9 +40,9 @@ const Navbar = () => {
                  
                     <div className="flex mr-6 ">
                       <a>
-                        <Link to="/Home"><img
-                          src="./assets/images/brandzi app icon-01.png"
-                          className="h-24 w-28 pb-4"
+                        <Link to="/"><img
+                          src="./assets/images/brandzi app icon-02.png"
+                          className="h-20 w-12 pb-4 mt-3 lg:ml-0 ml-72"
 
                           alt=""
                         /></Link>
@@ -55,9 +55,9 @@ const Navbar = () => {
                                      
                                             <div className="flex lg:ml- space-x-4">
                                                 {navigation.map((item) => (
-                                                    <a
+                                                    <Link
                                                         key={item.name}
-                                                        href={item.href}
+                                                        to={item.href}
                                                         className={classNames(
                                                             item.current ? 'bg-gray text-white' : 'text-white no-underline hover:bg-blue-500 hover:text-gray-700',
                                                             'rounded-md px-3 py-3 text-base font-medium'
@@ -65,7 +65,7 @@ const Navbar = () => {
                                                         aria-current={item.current ? 'page' : undefined}
                                                     >
                                                         {item.name}
-                                                    </a>
+                                                    </Link>
                                                 ))}
                                             </div>
 
@@ -106,4 +106,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar2;

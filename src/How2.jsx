@@ -1,14 +1,14 @@
 import React from "react";
-import Navbar  from "./Navbar";
+import Navbar2  from "./Navbar2";
 
-const Patel = () => {
+const How2 = () => {
   return (
     <>
     <div className=" hidden lg:block">
  
-    <Navbar/>
+    <Navbar2/>
     </div>
     </>
   );
 };
-export default Patel;
+export default How2;

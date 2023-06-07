@@ -1,15 +1,18 @@
 import React, { Component } from "react";
-import Festivals from "./Festivals";
-import Categories from "./Categories";
+
+
 import Templates from "./Templates";
 import Video from "./Video";
 import Features from "./Features";
 import Contactus from "./Contactus";
 import Footer from "./Footer";
-
+import Patel from "./Patel";
 import Dhairya from "./Dhairya"
-import Patel from "./Patel"
+
 import Navbar from "./Navbar";
+import Imageslider from "./Imageslider";
+// import Slider from "./Slider";
+import Catogaries from "./catogaries";
 
 const Home = () => {
 
@@ -21,7 +24,7 @@ const Home = () => {
 <Navbar/>
 
  
-      <div className="mt-12 lg:mt-20 bottom-0 bg-blue-500 sm:flex pl-11 pr-11 text-white ">
+      <div className=" mt-0 lg:mt-20 bottom-0 bg-blue-500 sm:flex pl-11  pr-11 text-white ">
         <div className=" pt-10 font-bold">
           <h4 className="text-lg">WE HELP YOUR BUSINESS BECOME A BRAND</h4>
           <br />
@@ -60,7 +63,7 @@ const Home = () => {
             <img
               id=""
               src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              className=" h-80 w-80  pt-5 pb-5 pl-4"
+              className=" h-80 w-80 lg:block hidden pt-5 pb-5 pl-4"
               alt=""
             />
 
@@ -76,15 +79,17 @@ const Home = () => {
       <br />
 
       <br />
-
-
-
-      <Categories />
-      <Festivals />
+      {/* <Slider/> */}
+      <Catogaries/>
+    <Patel/>
+     {/* <Imageslider/> */}
+   
+      {/* <Festivals /> */}
       <Templates />
       <Dhairya/>
       <Features />
       <Patel/>
+      
       <Video/>
       <Contactus />
       <Footer />

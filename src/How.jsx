@@ -1,6 +1,6 @@
 import React from 'react'
-import Topnav2 from './Responavbar2';
-import Yash from './Yash';
+import How2 from './How2';
+ 
 
 const How = () =>{
     return(
@@ -23,7 +23,7 @@ const How = () =>{
             </h1>
             <br />
             <p className="w-[80%] ml-24">
-            Login to Brands.live portal with your mobile number
+            Login to Brandzi portal with your mobile number
             </p>
           </div>
           <div className=" box-content drop-shadow-xl h-64 w-64 p-4 ">
@@ -57,6 +57,7 @@ const How = () =>{
                 
             </div>
             </div>
+            <How2/>
             
            
         </>

@@ -40,10 +40,10 @@ const Footer2 = () => {
             <hr/>
             <br/>
             <div classNameName="sm:flex sm:w-52">
-              <i className="fa-brands fa-facebook-f pls-8 cursor-pointer"></i>
-              <i className="fa-brands fa-instagram pl-8 cursor-pointer"></i>
-              <i className="fa-brands fa-twitter pl-8 cursor-pointer"></i>
-              <i className="fa-brands fa-youtube pl-8 cursor-pointer"></i>
+              <i className="fa-brands fa-facebook-f pr-5  cursor-pointer"></i>
+              <i className="fa-brands fa-instagram pr-5 cursor-pointer"></i>
+              <i className="fa-brands fa-twitter pr-5 cursor-pointer"></i>
+              <i className="fa-brands fa-youtube cursor-pointer"></i>
             </div>
           </div>
         </div>

@@ -24,7 +24,7 @@ const Navbar = () => {
         <Disclosure as="nav" className="bg-blue-400">
             {({ open }) => (
                 <>
-                    <div className=" mx-auto   fixed top-0 w-full bg-blue-600 text-5xl px-2 sm:px-6  lg:px-8">
+                    <div className=" mx-auto   lg:fixed top-0 w-full bg-blue-400 text-5xl px-2 sm:px-6  lg:px-8">
                         <div className=" relative flex  h-20 font-extrabold items-center justify-between">
                             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                                 {/* Mobile menu button*/}
@@ -37,28 +37,28 @@ const Navbar = () => {
                                     )}
                                 </Disclosure.Button>
                             </div>
-                           
+                                         
                  
-                    <div className="flex mr-6 ">
+                    <div className="flex lg:ml-6 ">
                     
                         <Link to="/"><img
-                          src="./assets/images/brandzi app icon-01.png"
-                          className="h-24 w-28 pb-4"
+                         src="./assets/images/brandzi app icon-02.png"
+                         className="h-20 w-12 pb-4 mt-3 lg:ml-0 ml-72"
 
                           alt=""
                         /></Link>
                     
                     </div>
                   
-                            <div className="flex  flex-1 items-center lg:justify-center sm:items-stretch sm:justify-center">
+                            <div className="flex  flex-1 items-center lg:justify-center sm:items-stretch justify-center">
                                 
                                 <div className="hidden  sm:block ">
                                      
                                             <div className="flex lg:ml- space-x-4">
                                                 {navigation.map((item) => (
-                                                    <a
+                                                    <Link
                                                         key={item.name}
-                                                        href={item.href}
+                                                        to={item.href}
                                                         className={classNames(
                                                             item.current ? 'bg-gray text-white' : 'text-white no-underline hover:bg-blue-500 hover:text-white',
                                                             'rounded-md px-3 py-3 text-base font-medium'
@@ -66,7 +66,7 @@ const Navbar = () => {
                                                         aria-current={item.current ? 'page' : undefined}
                                                     >
                                                         {item.name}
-                                                    </a>
+                                                    </Link >
                                                 ))}
                                             </div>
 
@@ -103,6 +103,7 @@ const Navbar = () => {
         </>
       )}
     </Disclosure>
+    
   
   );
 };

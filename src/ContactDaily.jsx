@@ -12,7 +12,7 @@ const Contactdaily = () => {
         <br /><br />
         <div className="lg:flex sm:pl-8 lg:ml-0 md:flex  sm:inline- justify-evenly align-middle border-2 pt-6 pb-6 rounded-2xl bg-slate-300">
           <div>
-            <ul>
+            <ul className="lg:ml-0 ml-7">
               <li>
                 <i className="fa-regular fa-envelope text-3xl pr-3"></i
                 ><b className="text-3xl">Email</b><br />
@@ -27,7 +27,7 @@ const Contactdaily = () => {
             </ul>
           </div>
           <div>
-            <ul>
+            <ul className="lg:ml-0 ml-7 lg:mt-0 mt-5">
               <li>
                 <i className="fa-solid fa-phone text-3xl pr-3"></i
                 ><b className="text-3xl">Phone</b><br />
