@@ -11,7 +11,7 @@ const Blogs = () => {
       
     <div>
       <div class="lg:flex md:flex sm:inline-block justify-evenly align-middle mt-20">
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -30,7 +30,7 @@ const Blogs = () => {
             essential tool for reaching your target audience.
           </p><br /><br />
         </div>
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -49,7 +49,7 @@ const Blogs = () => {
             essential tool for reaching your target audience.
           </p>
         </div><br /><br />
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -70,7 +70,7 @@ const Blogs = () => {
         </div>
       </div>
       <div class="lg:flex md:flex sm:inline-block justify-evenly align-middle">
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -89,7 +89,7 @@ const Blogs = () => {
             essential tool for reaching your target audience.
           </p>
         </div>
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -108,7 +108,7 @@ const Blogs = () => {
             essential tool for reaching your target audience.
           </p>
         </div>
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -130,7 +130,7 @@ const Blogs = () => {
       </div>
       {/* hidden in sm */}
       <div class="lg:flex md:flex sm:hidden justify-evenly align-middle">
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -149,7 +149,7 @@ const Blogs = () => {
             essential tool for reaching your target audience.
           </p>
         </div>
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -168,7 +168,7 @@ const Blogs = () => {
             essential tool for reaching your target audience.
           </p>
         </div>
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -189,7 +189,7 @@ const Blogs = () => {
         </div>
       </div>
       <div class="lg:flex md:flex sm:hidden justify-evenly align-middle">
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -208,7 +208,7 @@ const Blogs = () => {
             essential tool for reaching your target audience.
           </p>
         </div>
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -227,7 +227,7 @@ const Blogs = () => {
             essential tool for reaching your target audience.
           </p>
         </div>
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -248,7 +248,7 @@ const Blogs = () => {
         </div>
       </div>
       <div class="lg:flex md:flex sm:hidden justify-evenly align-middle">
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -267,7 +267,7 @@ const Blogs = () => {
             essential tool for reaching your target audience.
           </p>
         </div>
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -286,7 +286,7 @@ const Blogs = () => {
             essential tool for reaching your target audience.
           </p>
         </div>
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -307,7 +307,7 @@ const Blogs = () => {
         </div>
       </div>
       <div class="lg:flex md:flex sm:hidden justify-evenly align-middle">
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -326,7 +326,7 @@ const Blogs = () => {
             essential tool for reaching your target audience.
           </p>
         </div>
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"
@@ -345,7 +345,7 @@ const Blogs = () => {
             essential tool for reaching your target audience.
           </p>
         </div>
-        <div class="w-96">
+        <div class="w-96 lg:ml-0 ml-10">
           <img
             src="./assets/images/brandzi app icon-01.png"
             height="100px"

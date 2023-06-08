@@ -1,8 +1,9 @@
 import React from "react";
-import Dailypic from "./Dailypic";
+
 import ContactDaily from "./ContactDaily";
 import Footer2 from "./Footer2";
 import Navbar  from "./Navbar";
+import Dailycategories from "./Dailycategories";
 
 const Daily = () => {
   return (
@@ -13,7 +14,7 @@ const Daily = () => {
             <br />
             <p className="text-2xl pb-16 lg:ml-0 ml-10">Home / Daily Categories</p>
             </div>
-       <Dailypic />
+       <Dailycategories />
        <ContactDaily />
        <Footer2 />
        

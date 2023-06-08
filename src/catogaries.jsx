@@ -1,5 +1,7 @@
 import Catogariesimages from "./Catogaries images";
 import Catogariesimages2 from "./Catogariesimages2";
+
+
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 
 function Catogaries() {
@@ -20,6 +22,7 @@ function Catogaries() {
 
 
   return (
+    <>
     <div className="relative">
       <div className="text-center py-4  text-xl font-bold">Bussiness catogaries</div>
       <div className="absolute right-0 top-5 ">
@@ -39,7 +42,7 @@ function Catogaries() {
         </div>
       </div>
       
-      <div className="text-center py-4 mt-20 text-xl font-bold">festival catogaries</div>
+      <div className="text-center py-4 mt-20 text-xl font-bold">Festival catogaries</div>
       <div className="absolute right-0 top-5 ">
         <button onClick={scrollLeft} className="p-2 m-2 rounded-full bg-white">
           <FiChevronLeft />
@@ -54,6 +57,12 @@ function Catogaries() {
         </div>
       </div>
     </div>
+
+
+
+</>
+
+ 
    
   );
 }
