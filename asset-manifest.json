@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/BRAND-ZI/static/css/main.ebbd196f.css",
-    "main.js": "/BRAND-ZI/static/js/main.d2c41cef.js",
+    "main.css": "/BRAND-ZI/static/css/main.712f9fb8.css",
+    "main.js": "/BRAND-ZI/static/js/main.2052f3a9.js",
     "index.html": "/BRAND-ZI/index.html",
-    "main.ebbd196f.css.map": "/BRAND-ZI/static/css/main.ebbd196f.css.map",
-    "main.d2c41cef.js.map": "/BRAND-ZI/static/js/main.d2c41cef.js.map"
+    "main.712f9fb8.css.map": "/BRAND-ZI/static/css/main.712f9fb8.css.map",
+    "main.2052f3a9.js.map": "/BRAND-ZI/static/js/main.2052f3a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebbd196f.css",
-    "static/js/main.d2c41cef.js"
+    "static/css/main.712f9fb8.css",
+    "static/js/main.2052f3a9.js"
   ]
 }
